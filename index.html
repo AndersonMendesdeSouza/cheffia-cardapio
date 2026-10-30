@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f6f2e9" />
+  <meta name="description" content="Conheça o cardápio demonstrativo do Cheffia Gastro Bar: pizzas, petiscos, chopp e mais." />
+  <title>Cardápio | Cheffia Gastro Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="produtos.js" defer></script>
+  <script src="banners.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#cardapio">Ir para o cardápio</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#inicio" class="brand" aria-label="Cheffia Gastro Bar — início">
+        <img src="logo-chefia.svg" alt="" width="52" height="52" />
+        <span><strong>Cheffia</strong><small>GASTRO BAR</small></span>
+      </a>
+      <span class="header-location">Buriti Alegre <span aria-hidden="true">/</span> GO</span>
+      <nav class="header-nav" aria-label="Navegação principal">
+        <a href="#cardapio">Cardápio</a>
+        <a href="https://www.instagram.com/cheffiagastrobar_oficial/" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram do Cheffia Gastro Bar">Instagram <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="inicio">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow">À MESA COM O CHEFFIA</span>
+        <h1 id="hero-title">Bons sabores.<br />Melhores<br /> <em>encontros.</em></h1>
+        <p>Uma pizza para dividir, um brinde para celebrar.<br class="desktop-break" /> E todo o tempo para aproveitar.</p>
+        <a class="menu-link" href="#cardapio">Explore o cardápio <span aria-hidden="true">↘</span></a>
+        <div class="hero-note"><span aria-hidden="true">✳</span> Pizzas, petiscos & bons momentos.</div>
+      </div>
+      <div class="hero-visual">
+        <div id="banner-carousel" aria-label="Banners do cardápio"></div>
+        <div class="photo-caption"><span>DA NOSSA MESA PARA A SUA.</span><span>CHEFFIA GASTRO BAR</span></div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="cardapio" aria-labelledby="menu-title">
+      <div class="menu-heading">
+        <div><span class="eyebrow">ESCOLHA. COMPARTILHE. APROVEITE.</span><h2 id="menu-title">Nosso cardápio<span>.</span></h2></div>
+        <label class="search-wrap" for="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.8" />
+            <path d="m16 16 5 5" />
+          </svg>
+          <input id="search" type="search" placeholder="Busque um sabor..." autocomplete="off" aria-label="Buscar produtos" />
+        </label>
+      </div>
+      <div class="menu-layout">
+        <aside class="menu-navigation">
+          <span class="navigation-label">O QUE VAI SER HOJE?</span>
+          <nav class="categories" id="categories" aria-label="Categorias do cardápio"></nav>
+        </aside>
+        <div class="menu-content">
+          <p class="search-summary" id="search-summary" role="status" hidden></p>
+          <div class="product-sections" id="products" aria-live="polite"></div>
+          <div id="empty-state" class="empty-state" hidden>
+            <span class="eyebrow">VAMOS TENTAR DE NOVO</span>
+            <h3>Esse sabor não apareceu.</h3>
+            <p>Experimente outro termo ou escolha uma categoria diferente.</p>
+            <button type="button" id="reset-filters">Ver todo o cardápio <span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div class="footer-message">
+          <span class="eyebrow">A GENTE SE ENCONTRA À MESA.</span>
+          <h2>O melhor da noite<br />é compartilhar.</h2>
+        </div>
+        <div class="footer-address">
+          <span class="footer-label">NOSSA CASA</span>
+          <strong>Cheffia Gastro Bar</strong>
+          <span>Buriti Alegre · Goiás</span>
+          <a href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a>
+        </div>
+        <div class="footer-social">
+          <span class="footer-label">ACOMPANHE O CHEFFIA</span>
+          <a class="footer-instagram" href="https://www.instagram.com/cheffiagastrobar_oficial/" target="_blank"
+            rel="noopener noreferrer">Nosso Instagram <span aria-hidden="true">↗</span></a>
+          <span>Mais sabores. Mais encontros.</span>
+        </div>
+      </div>
+      <div class="footer-credits">
+        <span>© 2026 Cheffia Gastro Bar · Demonstração não oficial.</span>
+        <span>Desenvolvido por <a href="https://www.instagram.com/andersonmends__/" target="_blank"
+            rel="noopener noreferrer">Anderson Mendes de Souza</a>.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

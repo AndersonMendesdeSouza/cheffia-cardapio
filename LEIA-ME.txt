@@ -1,0 +1,12 @@
+CHEFFIA GASTRO BAR — CARDÁPIO DIGITAL (DEMONSTRAÇÃO)
+
+1. Extraia o ZIP e abra index.html.
+2. Edite produtos.js para cadastrar os itens reais, fotos e preços (preco: null mostra Consulte o valor).
+3. Edite banners.js para alterar banners e rodízio.
+   rodizioPizza.ativo = true habilita a promoção.
+   somenteQuinta = true mostra apenas às quintas (horário do aparelho).
+   Para testar em qualquer dia, defina somenteQuinta = false.
+4. Edite as cores no final de style.css.
+5. Para publicar, envie os arquivos para Cloudflare Pages ou hospedagem estática.
+
+ATENÇÃO: Cardápio demonstrativo não oficial; confirme itens, preços, fotos e Instagram antes de publicar. Imagens ilustrativas são externas e requerem internet.
