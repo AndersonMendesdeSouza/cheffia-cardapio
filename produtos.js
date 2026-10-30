@@ -210,15 +210,6 @@ const produtos = [
     imagem: 'https://images.unsplash.com/photo-1544145945-f90425340c7e?w=700&q=80'
   },
   {
-    id: 26,
-    nome: 'Mojito',
-    descricao: 'Rum, hortelã, limão, açúcar, água com gás e gelo. Copo de 300 ml.',
-    categoria: 'drinks',
-    preco: 24.90,
-    imagem: 'https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?w=700&q=80'
-  },
-
-  {
     id: 10,
     nome: 'Refrigerante Lata',
     descricao: 'Lata de 350 ml. Opções de cola, guaraná ou laranja.',
