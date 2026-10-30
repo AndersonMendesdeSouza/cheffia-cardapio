@@ -52,9 +52,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .hero h1 { margin-bottom: 24px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(52px, 6vw, 84px); font-weight: 400; letter-spacing: -.065em; line-height: 1.03; }
 .hero h1 em { color: var(--accent); font-weight: 400; }
 .hero-copy > p { margin-bottom: 30px; color: var(--muted); font-size: 14px; line-height: 1.8; }
-.menu-link { display: inline-flex; justify-content: space-between; align-items: center; gap: 40px; padding: 14px 20px; background: var(--ink); color: #fffdf5; font-size: 12px; }
-.menu-link:hover { background: var(--accent); }
-.menu-link span { font-size: 22px; line-height: 1; }
+.menu-link { display: inline-flex; justify-content: center; align-items: center; width: 200px; max-width: 100%; min-height: 48px; padding: 14px 24px; border: 1px solid #50534a; border-radius: 6px; background: var(--ink); color: #fffdf5; font-size: 12px; text-align: center; }
+.menu-link:hover { border-color: var(--accent); background: var(--accent); }
 .hero-note { display: flex; align-items: center; gap: 10px; margin-top: 34px; color: var(--muted); font-size: 11px; }
 .hero-note > span { color: var(--accent); font-size: 23px; line-height: 1; }
 .hero-visual { min-width: 0; }
