@@ -112,12 +112,12 @@ const produtos = [
   },
   {
     id: 17,
-    nome: 'Tábua de Frios',
-    descricao: 'Queijos, salame, presunto, azeitonas e torradas. Ideal para compartilhar entre 2 pessoas.',
+    nome: 'Tábua de Queijos',
+    descricao: 'Seleção de queijos, frutas, castanhas e torradas. Ideal para compartilhar entre 2 pessoas.',
     categoria: 'petiscos',
     preco: 54.90,
     adicional: { nome: 'Porção extra de torradas', preco: 6.00 },
-    imagem: 'https://images.unsplash.com/photo-1541014741259-de529411b96a?w=700&q=80'
+    imagem: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?w=700&q=80'
   },
 
   {
@@ -127,7 +127,7 @@ const produtos = [
     categoria: 'pratos',
     preco: 32.90,
     adicional: { nome: 'Porção extra de arroz', preco: 5.00 },
-    imagem: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=700&q=80'
+    imagem: 'https://images.unsplash.com/photo-1676471759564-8426f19510c0?w=700&q=80'
   },
   {
     id: 18,
@@ -136,7 +136,7 @@ const produtos = [
     categoria: 'pratos',
     preco: 39.90,
     adicional: { nome: 'Ovo frito', preco: 3.00 },
-    imagem: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&q=80'
+    imagem: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=700&q=80'
   },
   {
     id: 19,
@@ -155,7 +155,7 @@ const produtos = [
     categoria: 'pratos',
     preco: 42.90,
     adicional: { nome: 'Molho de ervas', preco: 4.00 },
-    imagem: 'https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=700&q=80'
+    imagem: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=700&q=80'
   },
 
   {

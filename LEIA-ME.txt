@@ -1,4 +1,4 @@
-CHEFFIA GASTRO BAR — CARDÁPIO DIGITAL (DEMONSTRAÇÃO)
+GARDEN GASTRO BAR — CARDÁPIO DIGITAL (DEMONSTRAÇÃO)
 
 1. Extraia o ZIP e abra index.html.
 2. Edite produtos.js para cadastrar os itens reais, fotos e preços (preco: null mostra Consulte o valor).
